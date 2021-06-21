@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(211, 184, 135);
+}
+
+.mybgcol {
+    background-color:  rgb(218, 151, 28);
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgb(58, 56, 56);
+}
+
+.collapse {
+    background-color: rgb(218, 151, 28);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #16181b;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgba(12, 12, 12, 0.125);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #080a0e;
+        border-top-color: rgb(134, 183, 254);
+        border-right-color: rgb(134, 183, 254);
+        border-bottom-color: rgb(134, 183, 254);
+        border-left-color: rgb(134, 183, 254);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(14, 15, 15, 0.25);
+}
+
+.myh3 {
+    border-bottom: 0.1em solid black;
+    padding-bottom: 1em;
+}
+.blockquote footer {
+    margin-top: 0.2em;
+}
+/*img size and style in actors& make image responsive*/
+.tab-pane img {
+    width: 100%;
+    max-width: 20em;
+    min-height: auto;
+}
+
+.tab-pane {
+    text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color:rgb(218, 151, 28);;
+}
+
+.myfooter {
+    background-color: rgb(218, 151, 28);
+    height: 5em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3em;
+    padding-top: 1em;
+}
